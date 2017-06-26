@@ -1,0 +1,8 @@
+<a href="{% url 'portfolio_edit' pk=post.pk %}">Edit post</a>
+<a href="{% url 'portfolio_list'  %}">Go back to posts</a>
+<hr>
+<h1>
+{{ post.title }}
+</h1>
+<p>
+{{ post.content }}
